@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE arrel SYSTEM "esdeveniments.dtd">
+<arrel  xmlns="http://www.chus.xml.institutmvm.cat/default" 
+        xmlns:c="http://www.chus.xml.institutmvm.cat/concerts" 
+        xmlns:t="http://www.chus.xml.institutmvm.cat/teatre">
+	<c:esdeveniments>
+		<c:esdeveniment>
+			<c:grup>Ladilla Rusa</c:grup>
+			<c:lloc>Sala Razzmatazz</c:lloc>
+			<c:data>2025-12-10 22:30</c:data>
+			<c:entrada gratuita="si"/>
+		</c:esdeveniment>
+		<c:esdeveniment>
+			<c:grup>Ruïnosa y las Strippers de Rahola</c:grup>
+			<c:lloc>Sala Apolo 2</c:lloc>
+			<c:data>2025-11-30 21:45</c:data>
+			<c:entrada gratuita="no">10</c:entrada>
+		</c:esdeveniment>
+		<c:esdeveniment>
+			<c:grup>Los Ganglios</c:grup>
+			<c:lloc>Sala Apolo 1</c:lloc>
+			<c:data>2026-01-12</c:data>
+			<c:entrada gratuita="no">12.5</c:entrada>
+		</c:esdeveniment>
+	</c:esdeveniments>
+
+	<t:esdeveniments>
+		<t:esdeveniment>
+			<t:companyia>Ultrashow</t:companyia>
+			<t:lloc>Teatre Goya</t:lloc>
+			<t:data>2025-11-14 23:00</t:data>
+			<t:entrada>15€ + 2,5€ de gestión online</t:entrada>
+		</t:esdeveniment>
+		<t:esdeveniment>
+			<t:companyia>Els Malvats</t:companyia>
+			<t:lloc>Teatre Gaudí</t:lloc>
+			<t:data>2025-11-29 20:00</t:data>
+			<t:entrada>22€ </t:entrada>
+		</t:esdeveniment>	
+	</t:esdeveniments>
+</arrel>
