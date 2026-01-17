@@ -23,3 +23,4 @@ Exercici de validació de documents XML mitjançant DTD (Document Type Definitio
 ## Validació
 
 Tots els documents han estat validats amb l'extensió **XML Language Support by Red Hat** de Visual Studio Code.
+A la carpeta captures es troben les proves fetes amb error i el amb el docuemnt corregit. 
