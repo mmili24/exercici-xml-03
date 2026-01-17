@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE esdeveniments [
+<!ELEMENT esdeveniments (esdeveniment+)>
+<!ELEMENT esdeveniment (companyia, lloc, data, entrada)>
+<!ELEMENT companyia (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT entrada (#PCDATA)>
+]>
+<esdeveniments>
+	<esdeveniment>
+		<companyia>Ultrashow</companyia>
+		<lloc>Teatre Goya</lloc>
+		<data>2025-11-14 23:00</data>
+		<entrada>15€ + 2,5€ de gestión online</entrada>
+	</esdeveniment>
+	<esdeveniment>
+		<companyia>Els Malvats</companyia>
+		<lloc>Teatre Gaudí</lloc>
+		<data>2025-11-29 20:00</data>
+		<entrada>22€</entrada>
+	</esdeveniment>	
+</esdeveniments>
