@@ -1,0 +1,19 @@
+<!ELEMENT arrel (c:esdeveniments, t:esdeveniments)>
+<!ATTLIST arrel
+    xmlns CDATA #FIXED "http://www.chus.xml.institutmvm.cat/default"
+    xmlns:c CDATA #FIXED "http://www.chus.xml.institutmvm.cat/concerts"
+    xmlns:t CDATA #FIXED "http://www.chus.xml.institutmvm.cat/teatre">
+<!ELEMENT c:esdeveniments (c:esdeveniment+)>
+<!ELEMENT c:esdeveniment (c:grup, c:lloc, c:data, c:entrada)>
+<!ELEMENT c:grup (#PCDATA)>
+<!ELEMENT c:lloc (#PCDATA)>
+<!ELEMENT c:data (#PCDATA)>
+<!ELEMENT c:entrada (#PCDATA)>
+<!ATTLIST c:entrada gratuita (si|no) #REQUIRED>
+
+<!ELEMENT t:esdeveniments (t:esdeveniment+)>
+<!ELEMENT t:esdeveniment (t:companyia, t:lloc, t:data, t:entrada)>
+<!ELEMENT t:companyia (#PCDATA)>
+<!ELEMENT t:lloc (#PCDATA)>
+<!ELEMENT t:data (#PCDATA)>
+<!ELEMENT t:entrada (#PCDATA)>
