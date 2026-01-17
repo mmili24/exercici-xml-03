@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE esdeveniments [
+<!ELEMENT esdeveniments (esdeveniment+)>
+<!ELEMENT esdeveniment (grup, lloc, data, entrada)>
+<!ELEMENT grup (#PCDATA)>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT entrada (#PCDATA)>
+<!ATTLIST entrada gratuita (si|no) #REQUIRED>
+]>
+<esdeveniments>
+	<esdeveniment>
+		<grup>Ladilla Rusa</grup>
+		<lloc>Sala Razzmatazz</lloc>
+		<data>2025-12-10 22:30</data>
+		<entrada gratuita="si"/>
+	</esdeveniment>
+	<esdeveniment>
+		<grup>Ruïnosa y las Strippers de Rahola</grup>
+		<lloc>Sala Apolo 2</lloc>
+		<data>2025-11-30 21:45</data>
+		<entrada gratuita="no">10</entrada>
+	</esdeveniment>
+	<esdeveniment>
+		<grup>Los Ganglios</grup>
+		<lloc>Sala Apolo 1</lloc>
+		<data>2026-01-12</data>
+		<entrada gratuita="no">12.5</entrada>
+	</esdeveniment>
+</esdeveniments>
+
